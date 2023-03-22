@@ -1,0 +1,79 @@
+body{
+  font-family: arial;
+}
+
+#container{
+  width: 60%;
+  min-height: 80vh;
+}
+
+
+#div01{
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23437EB1FF' stroke-width='4' stroke-dasharray='60' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+#div-check{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-check01{
+  position: relative;
+  display: flex;
+  align-items: bottom;
+  justify-content: center;
+}
+
+
+#btn-trash{
+  height: 46%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+#div-check03{
+  position: relative;
+  display: flex;
+  align-items: bottom;
+  justify-content: center;
+}
+
+#btn-edit{
+  height: 46%;
+  margin-top: 43px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #797979;
+}
+
+
+#h5-01{
+  color: #437EB1;
+  top: 120px;
+  right: 150px;
+}
+
+#h5-02{
+  color: #038B00;
+  top: 120px;
+  right: 0px;
+}
+
+footer{
+  position: relative;
+  margin-top: 0px;
+  height: 80px;
+  background-color: #18181a;
+}
